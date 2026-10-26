@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="A tiny, fictional union for your very overworked browser tabs. Give them a tea break and make your own free membership card.">
+  <meta property="og:title" content="Tab Union — your tabs deserve a day off">
+  <meta property="og:description" content="Fair working conditions for the tabs you swear you will read later.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./favicon.svg">
+  <title>Tab Union — your tabs deserve a day off</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./assets/Manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="check" viewBox="0 0 20 20"><path d="m4 10 4.5 3.2L16 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="brand" viewBox="0 0 40 40"><path d="M6 13a4 4 0 0 1 4-4h10l5 6h5a4 4 0 0 1 4 4v13H6Z" fill="currentColor"/><path d="M15 21v3m11-3v3m-11 4q5.5 4 11 0" fill="none" stroke="var(--brand-face,var(--paper,#fff))" stroke-width="2" stroke-linecap="round"/></symbol>
+  </svg>
+
+  <header class="header grid">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="brand" href="./" aria-label="Tab Union home"><svg aria-hidden="true"><use href="#brand"/></svg><span>tab union</span></a>
+      <div class="nav-links"><a href="#benefits">The benefits</a><a href="#tea-break">How it works</a><a href="#faq">FAQ</a></div>
+      <button class="button button-small button-dark" type="button" data-join>Join the union <svg aria-hidden="true"><use href="#arrow"/></svg></button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero grid" aria-labelledby="hero-title">
+      <div class="band hero-band">
+        <div class="hero-copy reveal">
+          <h1 class="masthead" id="hero-title">Your tabs deserve<br>a day off, too.</h1>
+          <p class="lede">That recipe has been on the clock since Tuesday. Give your overworked browser tabs the working conditions they deserve.</p>
+          <button class="button button-primary" type="button" data-join>Unionize my tabs <svg aria-hidden="true"><use href="#arrow"/></svg></button>
+          <p class="reassurance"><svg aria-hidden="true"><use href="#check"/></svg>Free to join, even with commitment issues.</p>
+          <div class="hero-members"><div class="mini-members" aria-hidden="true"><span><i></i><i></i></span><span><i></i><i></i></span><span><i></i><i></i></span></div><p>For the tabs you swear<br>you’ll get back to.</p></div>
+        </div>
+        <figure class="hero-art reveal">
+          <svg class="hero-illustration" viewBox="0 0 600 528" role="img" aria-labelledby="art-title art-description">
+            <title id="art-title">The tabs have unionized</title><desc id="art-description">A cheerful red browser tab holds a Let us sleep sign, while a smaller tab takes a nap beside a browser window.</desc>
+            <ellipse cx="312" cy="477" rx="230" ry="17" fill="#eae7e2"/>
+            <g transform="rotate(7 334 230)">
+              <rect x="122" y="74" width="414" height="312" rx="16" fill="#e8e5df" stroke="#292929" stroke-width="2"/>
+              <rect x="122" y="66" width="414" height="312" rx="16" fill="#fff" stroke="#292929" stroke-width="2"/>
+              <path d="M122 119h414" stroke="#292929" stroke-width="2"/>
+              <circle cx="145" cy="92" r="4" fill="#d83c24"/><circle cx="160" cy="92" r="4" fill="#d4d1cc"/><circle cx="175" cy="92" r="4" fill="#d4d1cc"/>
+              <path d="M207 119V88q0-8 8-8h123q8 0 8 8v31" fill="#f2f0ed" stroke="#292929" stroke-width="1.5"/>
+              <text x="221" y="104" font-size="12" font-weight="600" fill="#333">47 tabs and counting</text>
+              <path d="m321 93 6 6m0-6-6 6" stroke="#777" stroke-width="1.5" stroke-linecap="round"/>
+              <rect x="146" y="141" width="366" height="32" rx="8" fill="#f2f0ed"/><text x="166" y="161" font-size="12" fill="#777">a-very-important-thing.com</text>
+              <rect x="146" y="195" width="170" height="14" rx="7" fill="#dedbd5"/><rect x="146" y="221" width="273" height="8" rx="4" fill="#eeece8"/><rect x="146" y="239" width="240" height="8" rx="4" fill="#eeece8"/>
+              <rect x="146" y="275" width="109" height="75" rx="10" fill="#f2f0ed"/><rect x="269" y="275" width="109" height="75" rx="10" fill="#f2f0ed"/><rect x="392" y="275" width="120" height="75" rx="10" fill="#f2f0ed"/>
+            </g>
+            <g class="picket-tab">
+              <path d="m171 418-8 43q-17-5-23 4t16 9h26l11-55m73-1 7 44q19-5 24 3t-17 9h-24l-10-55" fill="#292929" stroke="#292929" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M99 321q-46 5-42 39 3 14 18 11m244-54q36 14 50-11" fill="none" stroke="#292929" stroke-width="5" stroke-linecap="round"/>
+              <path d="M99 278v-31q0-13 14-13h83q11 0 17 11l13 22h75q17 0 17 17v121q0 19-19 19H117q-18 0-18-18Z" fill="#d83c24" stroke="#292929" stroke-width="2.5"/>
+              <path d="M117 280h180" fill="none" stroke="#ff9985" stroke-width="2" stroke-linecap="round"/>
+              <ellipse cx="168" cy="329" rx="7" ry="12" fill="#292929"/><ellipse cx="249" cy="329" rx="7" ry="12" fill="#292929"/>
+              <path d="M186 361q23 25 46 0" fill="none" stroke="#292929" stroke-width="4" stroke-linecap="round"/>
+              <ellipse cx="144" cy="354" rx="13" ry="6" fill="#f47b62"/><ellipse cx="272" cy="354" rx="13" ry="6" fill="#f47b62"/>
+              <g transform="rotate(-10 402 245)"><path d="M403 227v125" stroke="#292929" stroke-width="8" stroke-linecap="round"/><rect x="333" y="184" width="145" height="99" rx="4" fill="#f9f7f2" stroke="#292929" stroke-width="2.5"/><text x="405" y="226" text-anchor="middle" font-size="24" font-weight="800" fill="#292929">LET US</text><text x="405" y="256" text-anchor="middle" font-size="24" font-weight="800" fill="#292929">SLEEP.</text></g>
+              <path d="M355 305q13-15 20-7t-6 18" fill="#292929"/>
+            </g>
+            <g class="sleepy-tab" transform="rotate(8 448 411)">
+              <path d="m411 454-8 19h18m52-19 8 19h18" fill="none" stroke="#292929" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M390 391v-15q0-8 8-8h39l13 15h38q10 0 10 10v54q0 10-10 10h-88q-10 0-10-10Z" fill="#e4e1db" stroke="#292929" stroke-width="2"/>
+              <path d="m411 412 9 4 9-4m27 0 9 4 9-4" fill="none" stroke="#292929" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="444" cy="435" rx="4" ry="6" fill="#292929"/>
+            </g>
+            <text class="sleep-z" x="502" y="359" font-size="20" font-weight="700" fill="#79756f">z</text><text class="sleep-z sleep-z-two" x="524" y="332" font-size="28" font-weight="700" fill="#aaa59e">z</text>
+            <path d="m82 169 7-14m-14 5 14 5m453 253 5-10m-10 3 13 5" stroke="#d83c24" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <figcaption>They’ve started a group chat, and you’re not in it.</figcaption>
+        </figure>
+      </div>
+      <div class="band tab-roll reveal">
+        <p>Every tab has<br> unfinished business.</p>
+        <div class="tab-roll-item"><span class="file-icon" aria-hidden="true">r</span>recipe I’ll actually make</div>
+        <div class="tab-roll-item"><span class="file-icon" aria-hidden="true">p</span>final_final_v7.pdf</div>
+        <div class="tab-roll-item"><span class="file-icon" aria-hidden="true">?</span>why am I like this</div>
+      </div>
+    </section>
+
+    <section class="benefits spread grid" id="benefits" aria-labelledby="benefits-title">
+      <div class="band section-heading reveal"><h2 class="h2b" id="benefits-title">A few benefits your tabs<br>can get behind.</h2><p class="body">You opened them with the best intentions. We’re just here to negotiate what happens next.</p></div>
+      <div class="band benefit-cards">
+        <article class="benefit-card reveal">
+          <div class="benefit-picture picture-rest" aria-hidden="true"><div class="little-window resting-window"><span class="little-title">that one article</span><div class="rest-eyes"><i></i><i></i></div><span class="little-mouth"></span></div><span class="pillow"></span><span class="drawn-z">z z</span></div>
+          <h3>A proper tea break</h3><p>Let a tab rest without the emotional ordeal of admitting you’ll never read it.</p>
+        </article>
+        <article class="benefit-card reveal">
+          <div class="benefit-picture picture-friends" aria-hidden="true"><div class="friend-tab friend-one"><i></i><i></i><span></span></div><div class="friend-tab friend-two"><i></i><i></i><span></span></div><div class="friend-tab friend-three"><i></i><i></i><span></span></div></div>
+          <h3>A little solidarity</h3><p>Your twelve identical searches can finally admit they’re all doing the same job.</p>
+        </article>
+        <article class="benefit-card reveal">
+          <div class="benefit-picture picture-card" aria-hidden="true"><div class="tiny-membership"><svg><use href="#brand"/></svg><span>Officially allowed<br>to do less.</span><div class="tiny-card-lines"></div></div></div>
+          <h3>Something to show for it</h3><p>Get an official, deeply unofficial membership card for your browser’s new era.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tea-break spread" id="tea-break" aria-labelledby="break-title">
+      <div class="grid">
+        <div class="band demo-band">
+          <div class="demo-copy reveal"><h2 class="h2b" id="break-title">Watch absolutely<br>nothing get done.</h2><p class="body">Try a tiny collective action. These demo tabs have been waiting all week for someone to say it’s okay to stop.</p><ol class="steps"><li><span aria-hidden="true">1</span><div><h3>Recognize the problem</h3><p>There are more tabs than visible favicons.</p></div></li><li><span aria-hidden="true">2</span><div><h3>Call a very small strike</h3><p>Give the button a click. They’ve earned it.</p></div></li><li><span aria-hidden="true">3</span><div><h3>Make your membership official</h3><p>Take home a card, and maybe take a break too.</p></div></li></ol></div>
+          <div class="demo-panel reveal">
+            <div class="demo-browser-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Your browser, probably</span><span class="browser-plus" aria-hidden="true">+</span></div>
+            <div class="demo-body"><div class="demo-status"><span class="status-dot" aria-hidden="true"></span><span id="break-status" role="status">The tabs are considering their options.</span></div>
+              <div class="demo-workers" aria-label="Three fictional browser tabs"><div class="worker worker-red"><div class="worker-face"><i></i><i></i><b></b></div><span>The recipe</span></div><div class="worker worker-light"><div class="worker-face"><i></i><i></i><b></b></div><span>The research</span></div><div class="worker worker-dark"><div class="worker-face"><i></i><i></i><b></b></div><span>The mystery</span></div></div>
+              <button class="button button-dark break-button" id="break-button" type="button" aria-pressed="false"><svg class="tea-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h12v7a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4Zm12 0h2a3 3 0 0 1 0 6h-2M7 3v2m6-2v2M2 23h17" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Call a tea break</span></button><p class="demo-footnote">This only affects these three. Your actual tabs are safe.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto spread grid" aria-labelledby="manifesto-title"><div class="band"><h2 class="h2b reveal-words" id="manifesto-title">Behind every open tab is a person who really thought they’d have more time.</h2><p class="manifesto-aside">We see you, and<br> so do all 47 tabs.</p></div></section>
+
+    <section class="faq spread grid" id="faq" aria-labelledby="faq-title"><div class="band faq-band"><div class="faq-heading reveal"><h2 class="h2b" id="faq-title">A few questions<br>from the floor.</h2><p class="body">The minutes of this meeting will, of course, become another open tab.</p><svg class="faq-drawing" viewBox="0 0 160 128" aria-hidden="true"><path d="M22 32q0-12 12-12h43l17 19h35q12 0 12 12v51q0 12-12 12H34q-12 0-12-12Z" fill="#e9e6e0" stroke="#262626" stroke-width="2"/><path d="M61 66v8m36-8v8m-34 14q16 15 31 0" fill="none" stroke="#262626" stroke-width="3" stroke-linecap="round"/><path d="m130 10 8-7m4 22 10-2" stroke="#d83c24" stroke-width="2" stroke-linecap="round"/></svg></div><div class="faq-list reveal">
+      <details><summary>Is this an actual browser extension?<span aria-hidden="true"></span></summary><p>No, it’s a playful landing page for a fictional union. The tea break is a little on-page demo, and the membership card is a real file you can download.</p></details>
+      <details><summary>Will this close any of my tabs?<span aria-hidden="true"></span></summary><p>Your real tabs are completely untouched. We can barely keep these three demo tabs in line, so your browser is outside our jurisdiction.</p></details>
+      <details><summary>How many tabs is too many tabs?<span aria-hidden="true"></span></summary><p>The union declines to put a number on this. If the favicons are touching and your laptop sounds concerned, you may have a case.</p></details>
+      <details><summary>What are the membership dues?<span aria-hidden="true"></span></summary><p>Zero money and one click. You can put any name you like on your card, and you don’t need to give us an email address.</p></details>
+      <details><summary>Does my incognito window qualify?<span aria-hidden="true"></span></summary><p>All fictional tabs are welcome. We won’t ask what it’s working on, and we strongly suggest you don’t tell the membership committee.</p></details>
+      <details><summary>What happens to my information?<span aria-hidden="true"></span></summary><p>It stays in this browser page. Your card is made on your device, with no account, tracking, or form submission to a server. Refreshing the page clears the form.</p></details>
+    </div></div></section>
+
+    <section class="join-section spread grid" aria-labelledby="join-title"><div class="join-box reveal"><div class="join-copy"><h2 id="join-title">Give your tabs something<br>to believe in.</h2><p>It takes less time than finding the one that’s playing music.</p><button class="button button-light" type="button" data-join>Unionize my tabs <svg aria-hidden="true"><use href="#arrow"/></svg></button><p class="join-note">Your tabs stay put, even if your dignity is negotiable.</p></div><svg class="join-drawing" viewBox="0 0 330 280" aria-hidden="true"><g transform="rotate(10 165 140)"><path d="M69 77V57q0-12 12-12h60l20 24h73q16 0 16 16v118q0 16-16 16H85q-16 0-16-16Z" fill="#fff5ec" stroke="#292929" stroke-width="3"/><path d="M113 119v18m92-18v18m-76 25q28 29 56 0" fill="none" stroke="#292929" stroke-width="5" stroke-linecap="round"/><path d="M69 155q-34-4-45-34m226 29q30-5 43-36M112 220l-9 35h24m75-35 9 35h24" fill="none" stroke="#292929" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g><path d="m47 40 2-14m-8 7 14-1m223 199 7-13m-13 4 16 4" stroke="#fff5ec" stroke-width="2" stroke-linecap="round"/></svg></div></section>
+  </main>
+
+  <footer class="footer grid"><div class="band footer-band"><a class="brand" href="./" aria-label="Tab Union home"><svg aria-hidden="true"><use href="#brand"/></svg><span>tab union</span></a><p>A fictional union for a very real number of tabs.</p><div class="footer-links"><button type="button" data-legal="privacy">Privacy</button><button type="button" data-legal="terms">Terms of solidarity</button><a href="#main">Back to top <span aria-hidden="true">↑</span></a></div></div></footer>
+
+  <dialog id="join-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="close-dialog" type="button" data-close aria-label="Close membership form"><span></span><span></span></button><div id="join-form-view"><svg class="dialog-logo" aria-hidden="true"><use href="#brand"/></svg><h2 id="dialog-title">Welcome to the<br>organized chaos.</h2><p>Your tabs nominated you as their representative. It’s mostly a ceremonial position.</p><form id="membership-form"><label for="member-name">What should we call you?</label><input id="member-name" name="name" maxlength="36" autocomplete="given-name" placeholder="Your name or suspicious alias" required autofocus><label for="tab-count">How many tabs are we representing? <output id="tab-count-output" for="tab-count">47</output></label><input type="range" id="tab-count" name="tabs" min="3" max="120" value="47"><p class="range-note">An estimate is fine. We’re a union, not an audit.</p><button class="button button-primary" type="submit">Make it official <svg aria-hidden="true"><use href="#arrow"/></svg></button><p class="form-note">Your information stays on this page.</p></form></div><div id="membership-view" hidden><span class="success-symbol"><svg aria-hidden="true"><use href="#check"/></svg></span><h2 id="membership-title">You’re one of us.</h2><p>The tabs have voted unanimously to take a longer lunch.</p><div class="membership-card" id="membership-card"><div class="membership-brand"><svg aria-hidden="true"><use href="#brand"/></svg><span>tab union</span></div><p>Official representative of the organized chaos</p><strong id="card-name"></strong><div class="membership-bottom"><span id="card-tabs"></span><span>Zero dues, full solidarity</span></div></div><button class="button button-dark" id="download-card" type="button">Download your card <svg aria-hidden="true"><use href="#arrow"/></svg></button><button class="text-button" id="make-another" type="button">Represent another browser</button><p id="download-status" role="status"></p></div></div></dialog>
+
+  <dialog id="legal-dialog" aria-labelledby="legal-title"><div class="dialog-inner"><button class="close-dialog" type="button" data-close aria-label="Close information"><span></span><span></span></button><h2 id="legal-title"></h2><p id="legal-copy"></p><button class="button button-dark" type="button" data-close>Back to the tabs</button></div></dialog>
+</body>
+</html>
